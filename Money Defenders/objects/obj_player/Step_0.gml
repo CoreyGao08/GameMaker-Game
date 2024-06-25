@@ -1,5 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (global.COIN <= 0){
+	room_goto(rm_start)
+}
+
+
+
 if (x > 0 and x  < room_width and y > 0 and y < room_height){
 }	
 
