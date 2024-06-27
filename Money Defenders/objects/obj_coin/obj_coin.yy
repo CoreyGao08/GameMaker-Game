@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_coin",
-    "path":"sprites/spr_coin/spr_coin.yy",
+    "name":"spr_bills",
+    "path":"sprites/spr_bills/spr_bills.yy",
   },
   "spriteMaskId":null,
   "visible":true,

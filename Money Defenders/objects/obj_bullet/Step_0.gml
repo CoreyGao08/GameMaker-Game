@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (global.PAUSE){
+	return;
+}
+
 // x bullet movement
 if (dir = Direction.Right){
 	x += spd;

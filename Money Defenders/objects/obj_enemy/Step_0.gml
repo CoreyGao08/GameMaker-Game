@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (global.PAUSE){
+	speed = 0;
+	return;
+}
+
 var player_x = obj_player.x;
 var player_y = obj_player.y;
 
@@ -10,7 +15,9 @@ if (distance_to_point(player_x, player_y) > spd){
 }
 
 if (hp <= 0){
-	instance_destroy()
+	var deathDisplay = instance_create_depth(x,y,0,obj_spriteDisplaceONCE);
+	deathDisplay.sprite_index = spr_enemyDeath
+	instance_destroy();
 }
 //taking coin from player/damage
 //damage timer
